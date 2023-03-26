@@ -12,11 +12,8 @@ Quando um usuário IAM é criado, a função Lambda é acionada por meio do Clou
 A função pesquisa o usuário do Slack com o nome de usuário do IAM.
 Caso o usuário IAM não seja encontrado, a função notifica que o usuário IAM foi criado para um canal Slack.
 
-![image](https://user-images.githubusercontent.com/13323303/114290928-3ba40200-9abe-11eb-8f9b-72b3680d4a1e.png)
-
 Se o usuário IAM for encontrado, a função cria o perfil de login do usuário IAM e envia a senha inicial para o usuário via Slack DM.
 
-![image](https://user-images.githubusercontent.com/13323303/114290993-bbca6780-9abe-11eb-9efe-ff2376400a96.png)
 Se o perfil de login já existir, a senha será alterada por padrão. Esse comportamento pode ser alterado.
 
 ## Architecture
@@ -44,4 +41,3 @@ Please see [here](docs/dynamodb.md).
 ## LICENSE
 
 [MIT](LICENSE)
-# AWS-project-Lambda
