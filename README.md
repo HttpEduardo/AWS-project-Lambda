@@ -41,3 +41,5 @@ Please see [here](docs/dynamodb.md).
 ## LICENSE
 
 [MIT](LICENSE)
+
+By Void
